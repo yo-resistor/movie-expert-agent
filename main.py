@@ -13,7 +13,7 @@ client = openai.OpenAI()
 
 messages = []
 
-MOVIE_API_URL = "https://nomad-movies.nomadcoders.workers.dev"
+MOVIE_API_URL = "https://nomad-movies-2.nomadcoders.workers.dev"
 
 def _movie_api_get(url: str) -> dict:
     """GET a movie API URL; return JSON or a dict with 'error' and 'detail' on failure."""
